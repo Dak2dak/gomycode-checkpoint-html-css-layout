@@ -67,11 +67,11 @@
 
 
     <!--start main-->
-    <main>
+    <main class="main">
         <!-- first section -->
-        <section>
+        <section class="main__workDone">
             <!--logo-->
-            <div>
+            <div class="main__workDone--center">
                 <img src="images/go.gif" alt="Oups!">
                 <img src="images/go.gif" alt="Oups!">
                 <img src="images/go.gif" alt="Oups!">
@@ -80,28 +80,28 @@
             <!--end logo-->
 
             <!--Experience-->
-            <div>
-                <div>
+            <div class="main__workDone--experience">
+                <div class="main__workDone__experience--left">
                     <h1>2+</h1>
                     <p>Work experience</p>
                 </div>
 
-                <div>
-                    <div>
+                <div class="main__workDone__experience--right">
+                    <div class="main__workdone__experience__right--up">
                         <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, ullam?</h4>
                     </div>
-                    <div>
-                        <div>
+                    <div class="main__workDone__experience__right--down">
+                        <div class="main__workDone__experience__right__down--LeftCard">
                             <i class="fas fa-drafting-compass"></i>
                             <h4>Product design</h4>
                             <a href="#">Discover more</a>
                         </div>
-                        <div>
+                        <div class="main__workDone__experience__right__down--MiddleCard">
                             <i class="fas fa-desktop"></i>
                             <h4>Product design</h4>
                             <a href="#">Discover more</a>
                         </div>
-                        <div>
+                        <div class="main__workDone__experience__right__down--right">
                             <i class="fas fa-bolt"></i>
                             <h4>Product design</h4>
                             <a href="#">Discover more</a>
@@ -113,17 +113,17 @@
         <!--end first section-->
 
         <!-- second section -->
-        <section>
-            <div>
-                <div>
+        <section class="main__SecondSection">
+            <div class="main__SecondSection--up">
+                <div class="main__SecondSection__up--left">
                     <h1>Lorem ipsum dolor sit amet consectetur.</h1>
                 </div>
-                <div>
+                <div class="main__SecondSection__up--right">
                     <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit !</h5>
                     <a href="#">Explore more →</a>
                 </div>
             </div>
-            <div>
+            <div class="main__SecondSection--down">
                 <img src="images/image1-hover.jpeg" alt="Oup !">
                 <img src="images/image2-hover.webp" alt="Oups !">
                 <img src="images/image3-hover.jpg" alt="Oups !">
@@ -135,16 +135,16 @@
         <!--end second section-->
 
         <!--third section-->
-        <section>
-            <div>
+        <section class="main__ThirdSection">
+            <div class="main__ThirdSection--up">
                 <!--award image-->
-                <div>
+                <div class="main__ThirdSection__up--left">
                     <img src="images/award.jfif" alt="Oups !">
                 </div>
                 <!--end award image-->
 
                 <!--prize won details-->
-                <div>
+                <div class="main__ThirdSection__right">
                     <h1>Winner of the 2020 CI best web developer contest</h1>
                     <p>
                         2020 CI best web developer contest was organized by GT Bank Côte d’Ivoire.<br>
@@ -157,9 +157,9 @@
             </div>
 
             <!--testimony-->
-            <div>
+            <div class="main__ThirdSection--down">
                 <!--testimony one-->
-                <div>
+                <div class="main__ThirdSection__down--LeftTestimony">
                     <img src="images/boss1.jfif" alt="Oups !">
                     <p>❝As I worked with Didier, <br> I can ensure you that he is a hard worker.❝</p>
                     <span>CEO at webmaster design</span>
@@ -167,7 +167,7 @@
                 <!--end-->
 
                 <!--testimony two-->
-                <div>
+                <div class="main__ThirdSection__down--MiddleTestimony">
                     <img src="images/boss2.jfif" alt="Oups !">
                     <p>❝Didier has a good frame of mind,<br> he is open-minded and does <br>such an impressive job.❝</p>
                     <span>Manager at Friends' company</span>
@@ -175,7 +175,7 @@
                 <!--end-->
 
                 <!--testimony three-->
-                <div>
+                <div class="main__ThirdSection__down--RightTestimony">
                     <img src="images/boss3.jfif" alt="Oups !">
                     <p>❝Because I had him as an employee<br> in my company, I can tell you that <br>Didier always gets his work done on time.❝</p>
                     <span>CEO at Djolo startup</span>
@@ -186,16 +186,14 @@
         </section>
         <!--end third section-->
 
-
-
     </main>
     <!--end main-->
 
     <!--start footer-->
-    <footer>
-        <div>
+    <footer class="footer">
+        <div class="footer__right">
             <h1>Let's connect</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, tenetur.</p>
+            <p class="footer__right--text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, tenetur.</p>
             <div class="icons">
                 <a href="">
                     <i class="fab fa-facebook"></i>
@@ -216,8 +214,8 @@
         </div>
 
 
-        <div>
-            <h2>Send me a message and let's work something out together !</h2>
+        <div class="footer__left">
+            <h2 class="footer__left--text">Send me a message and let's work something out together !</h2>
             <form action="#">
                     <input type="text" placeholder="Enter your name">
                     <input type="text" placeholder="Enter your email">
@@ -226,18 +224,18 @@
             </form>
         </div>
 
-        <div>
+        <div class="footer__files">
             <!-- adding audio file -->
-            <div class="audio">
-                <p class="audio-text">Take a few time to listen to this song.<br>You'll love it!</p>
+            <div class="footer__files--audio">
+                <p class="footer__files__audio--text">Take a few time to listen to this song.<br>You'll love it!</p>
                 <audio controls>
                     <source src="audios/Amazing Grace.mp3" type="audio/mpeg">
                 </audio>
             </div>
         
             <!--Adding a video file-->
-            <div>
-                <p>Watch this 10 minute video and enjoy it!</p>
+            <div class="footer__files--video">
+                <p class="footer__files__video--text">Watch this 10 minute video and enjoy it!</p>
                 <video width="900" height="400" controls>
                    <source src="videos/Steve's-pickup-in-college.mp4" type="video/mp4"/>
                 </video>
@@ -246,7 +244,7 @@
     </footer>
     <!--end footer-->
 
-    <div>
+    <div class="LastFooter">
         <h5>Designed by DAK2DAK &copy;</h5>
     </div>
 </body>
