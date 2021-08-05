@@ -12,6 +12,11 @@
     }
   }
 
+  :root {
+    color: #7562E0;
+    color: #625C7E;
+  }
+
 html{
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
@@ -22,7 +27,7 @@ a{
     text-decoration: none;
 }
 
-.navbar{
+.header__nav{
     display: flex;
     justify-content: space-between;
     padding: 2rem;
