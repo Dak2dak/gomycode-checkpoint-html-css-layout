@@ -12,9 +12,9 @@
     }
   }
 
-  :root {
-    color: #7562E0;
-    color: #625C7E;
+  :root{
+    --violet: #7562E0;
+    --dark: #625C7E;
   }
 
 html{
@@ -27,7 +27,7 @@ a{
     text-decoration: none;
 }
 
-.header__nav{
+.nav{
     display: flex;
     justify-content: space-between;
     padding: 2rem;
@@ -35,22 +35,32 @@ a{
     margin-left: 170px;
 }
 
-.nav-link{
+.nav__name{
+    color: #7562E0;
+    font: 3rem;
+}
+
+.nav__menu{
     margin-left: 1rem;
 }
 
-.introduce{
+.aboutinfo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.name{
     margin-left: 4rem;
-    font-size: 5rem;
+    font-size: 3rem;
     font-weight: bold;
     color: #000;
 }
 
-.about-me{
+.skills{
     margin-left: 4rem;
 }
 
-.int-mod .btn{
+.button{
     width: 30%;
     height: 50px;
     margin-left: 4rem;
@@ -63,24 +73,14 @@ a{
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.navbar h1{
-    color: #7562E0;
-    font: 3rem;
-}
-
-.main-text{
-    display: flex;
-    justify-content: space-around;
-}
-
-.right-model{
+.aboutinfo__picture{
     width: 40%;
     height: 100%;
     background-position: center;
     max-height: 600px;
 }
 
-.model{
+.myphoto{
     border: 10px solid #7562E0;
     border-radius: 50%;
     width: 350px;
@@ -88,20 +88,23 @@ a{
     background-color: #7562E0;
 }
 
-.model img{
+.myimage{
+    position: relative;
+    background-color: #7562E0;
+    width: 450px;
+    height: 70vh;
+    left: 10%;
+    border-radius: 50%;
+}
+
+.myphoto img{
     border-radius: 50%;
     width: 350px;
     height: 350px;
     object-fit: cover;
 }
 
-.background-model{
-    position: relative;
-    background-color: #7562E0;
-    height: 75vh;
-    left: 10%;
-    border-radius: 50%;
-}
+
 
 .image-model{
     width: 100%;
@@ -446,4 +449,8 @@ h4{
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-size: 20px;
+}
+
+.btn:active{
+	inset 0 0 4px rgb(0, 0, 0, 0.4);
 }
