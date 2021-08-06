@@ -43,7 +43,7 @@ a{
 
 .nav__name{
     color: #7562E0;
-    margin-left: 13rem;
+    margin-left: 12rem;
     font: 3rem;
     font-weight: bold;
 }
@@ -59,7 +59,6 @@ a{
 .aboutinfo{
     display: flex;
     justify-content: space-around;
-    border: dashed;
 }
 
 .name{
@@ -108,28 +107,42 @@ box-shadow: 0 0 0 0 var(--black), inset 6.7rem 0 0 0 var(--black);
 
 .myphoto{
     position: absolute;
-    top: -40px;
-    left: -40px;
+    top: -50px;
+    left: -100px;
     border: 10px solid #7562E0;
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 326px;
+    height: 326px;
     background-color: #7562E0;
 }
 
 .myimage{
     position: relative;
+    border-radius: 50%;
     background-color: #7562E0;
     width: 500px;
     height: 70vh;
     left: 10%;
+}
+
+.whitefont{
+    position: relative;
+    right: -2px;
+    bottom: -6px;
     border-radius: 50%;
+    background-color: white;
+    width: 325px;
+    height: 325px;
 }
 
 .myphoto img{
+    position: relative;
+    left: 12px;
+    top: 12px;
+    bottom: -10px;
     border-radius: 50%;
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
 }
 
