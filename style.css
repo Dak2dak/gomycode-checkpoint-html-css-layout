@@ -107,47 +107,48 @@ a{
 
 
 .image-model{
-    width: 100%;
+   /* width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
-    border: 10px solid white;
+    border: 10px solid white;*/
 }
 
-.picture{
+.box-center{
+    display: flex;
+    justify-content: space-between;
     margin-top: 15rem;
     margin-bottom: 4rem;
     margin-left: 350px;
     margin-right: 350px;
-    display: flex;
-    justify-content: space-between;
+    
 }
 
-img{
+.box-center img{
     width: 25%;
     height: 25%;
     margin-right: 8px;
     margin-bottom: 100px;
 }
 
-.projects-left{
-    display: flex;
-    align-items: flex-start;
-    margin-left: 15rem;
-}
-
- b{
+.yearsof{
     font-weight: bold;
     font-size: 5rem;
     color: #7562E0;
  }
 
- .projects-left em{
+.experience{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 15rem;
+}
+
+.workDone-left p{
     color: black;
     font-weight: bold;
  }
 
- .projects-left-right h3 {
+ .experience__right--up {
     display: flex;
     flex-wrap: wrap;
     color: #7562E0;
@@ -157,14 +158,14 @@ img{
     padding-bottom: 2rem;
  }
 
- .projects-left-right-1{
+ .experience__right--down{
     margin-left: 6rem;
     display: flex;
     justify-content: space-between;
     margin-right: 190px;
  }
 
- .animated{
+ .Card{
     width: 270px;
     height: 270px;
     padding-top: 12rem;
@@ -177,31 +178,29 @@ img{
     box-shadow: 0px 0px 12px -5px rgba(0,0,0,0.18);
  }
 
- .animated:hover{
+ .Card:hover{
      background-color: #7562E0;
      color: white;
  }
-
-
 
 h4{
     color: #7562E0;
     font-size: 20px;
 }
 
-.work_part{
+.main__SecondSection{
     margin-top: 8rem;
     display: flex;
     flex-wrap: wrap;
 }
 
-.worker{
+.SecondSection__up--left{
     display: flex;
     justify-content: space-between;
     padding-bottom: 1rem;
 }
 
-.bigwords{
+.SecondSection__up--right{
     margin-left: 15rem;
     color: #7562E0;
     margin-right: 5rem;
@@ -209,35 +208,29 @@ h4{
     font-weight: bold;
 }
 
-#work h3{
-    color: black;
-}
-
 .lorem{
-    margin-right: 15rem;
-    font-size: 14px;
+    /*margin-right: 15rem;
+    font-size: 14px;*/
 }
 
-.lorem h3{
+.SecondSection__up--right h3{
     margin-bottom: 3rem;
 }
 
-.lorem a{
+.SecondSection__up--right a{
     font-size: 20px;
 }
 
-.testimony-1{
+.main__SecondSection--down{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-left: 15rem;
     margin-right: 11rem;
     padding-top: 4rem;
-
-    
 }
 
-.testimony-1 img{
+.Testimony{
     width: 355px;
     height: 390px;
     object-fit: cover;
@@ -253,12 +246,12 @@ h4{
     margin-right: 10px;*/
 }
 
-.image-one, .image-two, .image-three, .image-four, .image-five, .image-six{
+.SecondSection--down img{
     display: flex;
     object-fit: cover;
 }
 
-.award{
+.ThirdSection__up--left{
     display: flex;
     justify-content: space-between;
     margin-left: 15rem;
@@ -266,7 +259,7 @@ h4{
     margin-top: 5rem;
 }
 
-.img1{
+.ThirdSection__up--left img{
     border: groove;
     width: 100%;
     height: 30rem;
@@ -274,7 +267,7 @@ h4{
     object-fit: cover;
 }
 
-.award h1{
+.ThirdSection__up--right h1{
     display: flex;
     flex-wrap: wrap;
     color: #7562E0;
@@ -285,7 +278,7 @@ h4{
     height: 5rem;
 }
 
-.award p{
+.ThirdSection__up--right p{
     display: flex;
     flex-wrap: wrap;
     margin-left: 1rem;
@@ -294,11 +287,7 @@ h4{
     margin-bottom: 1rem;
 }
 
-.break2{
-    margin-bottom: 1rem;
-}
-
-.img2{
+.ThirdSection__up--right img{
     height: 100%;
     width: 30%;
     margin-top: 3rem;
@@ -306,7 +295,7 @@ h4{
     margin-right: auto;
 }
 
-.testimony-2{
+.main__ThirdSection--down{
     display: flex;
     justify-content: space-around;
     margin-left: 15rem;
@@ -315,7 +304,11 @@ h4{
     box-shadow: rgba(0, 0, 0, 0.18) 0px 0px 23px -5px;
 }
 
-.test-im1 img, .test-im2 img, .test-im3 img{
+.Testimony{
+    border: groove;
+}
+
+.Testimony img{
     border-radius: 300px;
     width: 8rem;
     height: 8rem;
@@ -324,24 +317,25 @@ h4{
     margin-left: 25%;
 }
 
-.testimony-2 p{
+.Testimony p{
     text-align: center;
     margin-bottom: 2rem;
     color: #7562E0;
     font-weight: bold;
 }
 
-.testimony-2 span{
+.Testimony span{
     text-align: center;
     margin-left: 4rem;
 }
 
-.testimony-left, .testimony-middle, .testimony-right{
-    border: groove;
+.testimony-middle span{
+    /*margin-right: 4rem;*/
 }
 
-.testimony-middle span{
-    margin-right: 4rem;
+.footer{
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer-left{
@@ -350,7 +344,7 @@ h4{
     margin-left: 15rem;
 }
 
-.text, .ipsum, .icons{
+h1, .right-text, .icons{
     margin-bottom: 1rem;
 }
 
@@ -365,20 +359,20 @@ h4{
     color: #7562E0;
 }
 
-.form-1{
+.footer__left{
     margin-right: 15rem;
     margin-bottom: 10rem;
     margin-left: 10rem;
 }
 
-.little-message{
+.left-text{
     margin-left: 44rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
     padding-bottom: 1rem;
 }
 
-.form{
+form{
     display: flex;
     flex-direction: column;
     justify-items: flex-end;
@@ -387,7 +381,7 @@ h4{
     padding-left: 4rem;
 }
 
-.form .btn{
+.btn{
     width: 50%;
     height: 60px;
     margin-top: 1rem;
@@ -416,13 +410,13 @@ h4{
     padding-left: 1rem;
 }
 
-.file{
+.footer__files{
     display: flex;
     justify-content: space-between;
     background-color: beige;
 }
 
-.audio{
+.file-audio{
     margin-top: 10rem;
     margin-left: 15rem;
 }
@@ -433,7 +427,7 @@ h4{
     margin-bottom: 2rem;
 }
 
-.video p{
+.video-text{
     color: #625C7E;
     margin-left: 13rem;
     margin-bottom: 2rem;
@@ -441,7 +435,7 @@ h4{
     font-size: 25px;
 }
 
-.footer--bottom{
+.Bottom__Footer{
     display: flex;
     justify-content: center;
     background-color: black;
