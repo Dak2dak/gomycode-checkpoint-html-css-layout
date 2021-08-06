@@ -74,8 +74,8 @@ a{
 }
 
 button{
-    margin-left: 6.7rem;
-    margin-top: 1rem;
+    width: 176px;
+    height: 62px;
     padding: 20px  30px;
     border: 3px solid #625C7E;
     background: none;
@@ -88,7 +88,7 @@ button{
     height: 60px;
     margin-top: 1rem;
     margin-left: 6.7rem;
-    box-shadow: 0.3em 0.3em 0 0 var(--violet), inset 0.3em 0.3em 0 0 var(--violet);
+    box-shadow: 0.5em 0.5em 0 0 var(--violet), inset 0.5em 0.5em 0 0 var(--violet);
     transition: all 0.5s ease-in-out;
     
 }
@@ -459,7 +459,7 @@ form{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     padding-left: 1rem;
-}
+}   
 
 .footer__files{
     display: flex;
