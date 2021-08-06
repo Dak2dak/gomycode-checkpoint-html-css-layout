@@ -211,22 +211,31 @@ box-shadow: 0 0 0 0 var(--black), inset 6.7rem 0 0 0 var(--black);
     box-shadow: 0px 0px 12px -5px rgba(0,0,0,0.20);
  }
 
- .Card:hover{
+.Card i{
+     font-size: 35px;
+     color: var(--violet);
+ }
+
+.Card:hover{
     background-color: #7562E0;
     color: white;
  }
 
- .Discover{
+.Discover{
     opacity: 0;
  }
 
- .Card:hover a{
-    transition: ease-in-out .3s;
+.Card:hover a{
     opacity: 1;
+    color: white;
+    visibility: visible;
+ }
+
+.Card:hover h4{
     color: white;
  }
 
- .Card:hover h4{
+.Card:hover div i{
     color: white;
  }
 
@@ -282,15 +291,6 @@ h4{
     height: 390px;
     object-fit: cover;
     border: groove;
-
-   /* height: 300px;
-    overflow: hidden;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.18);
-    margin-bottom: 20px;
-    width: 31%;
-    margin-right: 10px;*/
 }
 
 .SecondSection--down img{
