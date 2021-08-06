@@ -23,6 +23,14 @@ html{
     color: #625C7E;
 }
 
+section{
+    padding: 60px 0;
+}
+
+footer{
+    padding: 60px 0;
+}
+
 a{
     text-decoration: none;
 }
@@ -30,48 +38,72 @@ a{
 .nav{
     display: flex;
     justify-content: space-between;
-    padding: 2rem;
-    margin-right: 150px;
-    margin-left: 170px;
+    padding-top: 1rem;
 }
 
 .nav__name{
     color: #7562E0;
+    margin-left: 13rem;
     font: 3rem;
+    font-weight: bold;
 }
 
 .nav__menu{
+    margin-right: 9rem;
+}
+
+.nav__menu a{
     margin-left: 1rem;
 }
 
 .aboutinfo{
     display: flex;
     justify-content: space-around;
+    border: dashed;
 }
 
 .name{
-    margin-left: 4rem;
+    margin-left: 6rem;
     font-size: 3rem;
     font-weight: bold;
     color: #000;
 }
 
 .skills{
-    margin-left: 4rem;
+    margin-left: 6.7rem;
 }
 
 .button{
     width: 30%;
     height: 50px;
-    margin-left: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 6.7rem;
     margin-top: 1rem;
     border: 3px solid #7562E0;
     background-color: white;
     font-size: 20px;
     box-shadow: 5px 5px #7562E0;
     cursor: pointer;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+
+/*button{
+    background: none;
+    border: 2px solid #625C7E;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+
+.button {
+    box-shadow: 0.3em 0.3em 0 0 var(--violet), inset 0.3em 0.3em 0 0 var(--violet);
+    transition: all .3s ease-in-out;
+}
+
+.button:hover, .button:focus {
+box-shadow: 0 0 0 0 var(--black), inset 6em 3.5em 0 0 var(--black);
+}*/
 
 .aboutinfo__picture{
     width: 40%;
@@ -104,8 +136,35 @@ a{
     object-fit: cover;
 }
 
+/*.picture{
+    margin: 10rem;
+    width: 500px;
+    height: 70vh;
+    border-radius: 50%;
+    background-color: rgb(247, 39, 247);
+    position: absolute;
+    color: red;
+}
 
+.pic{
+    position: relative;
+    background-color: white;
+    border-radius: 100%;
+    width: 80%;
+}
 
+.pic-of-me{
+    position: relative;
+    background-color: white;
+    border-radius: 100%;
+    width: 100%;
+}
+
+.picture img{
+    position: relative;
+    border-radius: 50%;
+}
+*/
 .image-model{
    /* width: 100%;
     height: 100%;
