@@ -100,22 +100,27 @@ box-shadow: 0 0 0 0 var(--black), inset 6.7rem 0 0 0 var(--black);
 .aboutinfo__picture{
     width: 40%;
     height: 100%;
+    margin-left: 4rem;
     background-position: center;
     max-height: 600px;
+    border: 10px solid white;
 }
 
 .myphoto{
+    position: absolute;
+    top: -40px;
+    left: -40px;
     border: 10px solid #7562E0;
     border-radius: 50%;
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     background-color: #7562E0;
 }
 
 .myimage{
     position: relative;
     background-color: #7562E0;
-    width: 450px;
+    width: 500px;
     height: 70vh;
     left: 10%;
     border-radius: 50%;
@@ -126,43 +131,6 @@ box-shadow: 0 0 0 0 var(--black), inset 6.7rem 0 0 0 var(--black);
     width: 350px;
     height: 350px;
     object-fit: cover;
-}
-
-/*.picture{
-    margin: 10rem;
-    width: 500px;
-    height: 70vh;
-    border-radius: 50%;
-    background-color: rgb(247, 39, 247);
-    position: absolute;
-    color: red;
-}
-
-.pic{
-    position: relative;
-    background-color: white;
-    border-radius: 100%;
-    width: 80%;
-}
-
-.pic-of-me{
-    position: relative;
-    background-color: white;
-    border-radius: 100%;
-    width: 100%;
-}
-
-.picture img{
-    position: relative;
-    border-radius: 50%;
-}
-*/
-.image-model{
-   /* width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 10px solid white;*/
 }
 
 .box-center{
