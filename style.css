@@ -242,33 +242,19 @@ h4{
     font-size: 20px;
 }
 
+.main__SecondSection--up{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-left: 16rem;
+    margin-right: 12rem;
+    margin-bottom: 7rem;
+}
+
 .SecondSection__up--left{
     margin-right: -8rem;
     font-size: 20px;
     font-weight: bold;
-}
-
-.SecondSection__up--right h3{
-    margin-left: -2rem;
-    font-size: 16px;
-    color: #625C7E;
-}
-
-.SecondSection__up--right a{
-    margin-left: -2rem;
-    font-size: 14px;
-    color: #7562E0;
-}
-
-
-
-.main__SecondSection--up{
-    margin-top: 1rem;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 16rem;
-    margin-right: 12rem;
-    
 }
 
 .SecondSection__up--left h1{
@@ -285,16 +271,42 @@ h4{
 
 .SecondSection__up--right h3{
     margin-bottom: 3rem;
+    margin-left: -2rem;
+    font-size: 16px;
+    color: #625C7E;
+}
+
+.SecondSection__up--right a{
+    margin-left: -2rem;
+    font-size: 14px;
+    color: #7562E0;
 }
 
 .main__SecondSection--down{
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between;
-    margin-left: 15rem;
-    margin-right: 11rem;
-    padding-top: 4rem;
+    margin-left: 16rem;
+    margin-right: 13rem;
+}
+
+.Design{
+    width: 31%;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 1.1rem;
+}
+
+.Design img{
+    position: relative;
+    object-fit: cover;
+    transition: .3s ease-in-out;
+    width: 100%;
+}
+
+.Design:hover{
+    transform:  translateY(30%);
 }
 
 .Testimony{
@@ -309,19 +321,24 @@ h4{
     object-fit: cover;
 }
 
-.ThirdSection__up--left{
+.main__ThirdSection{
+    display: block;
+    margin-bottom: 0;
+    margin-left: 8rem;
+    padding-top: 0;
+    margin-right: 5.5rem;
+}
+
+.ThirdSection-up{
     display: flex;
     justify-content: space-between;
-    margin-left: 15rem;
-    margin-right: 15rem;
-    margin-top: 5rem;
+    margin-bottom: 4rem;
 }
 
 .ThirdSection__up--left img{
-    border: groove;
     width: 100%;
-    height: 30rem;
-    margin-right: 30rem;
+    height: 25rem;
+    margin-right: 25rem;
     object-fit: cover;
 }
 
@@ -346,8 +363,8 @@ h4{
 }
 
 .ThirdSection__up--right img{
-    height: 100%;
     width: 30%;
+    height: 60px;
     margin-top: 3rem;
     margin-left: 10rem;
     margin-right: auto;
@@ -355,15 +372,18 @@ h4{
 
 .main__ThirdSection--down{
     display: flex;
-    justify-content: space-around;
-    margin-left: 15rem;
-    margin-right: 14rem; 
+    justify-content: space-between;
+    margin-left: 9rem;
+    margin-right: 8rem; 
     margin-bottom: 6rem;
     box-shadow: rgba(0, 0, 0, 0.18) 0px 0px 23px -5px;
 }
 
 .Testimony{
-    border: groove;
+    width: 31%;
+    height: 350px;
+    border: 2px solid #f7f6f9;
+    box-shadow: 0px 0px 12px -5px rgba(0,0,0,0.20);
 }
 
 .Testimony img{
@@ -385,31 +405,34 @@ h4{
 .Testimony span{
     text-align: center;
     margin-left: 4rem;
-}
-
-.testimony-middle span{
-    /*margin-right: 4rem;*/
+    opacity: 0.4;
+    font-weight: bold;
 }
 
 .footer{
+    display: block;
+    justify-content: space-between;
+    margin-left: 16rem;
+    margin-right: 13rem;
+    border: dashed;
+}
+
+.footer__pu1{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-.footer-left{
-    float: left;
-    margin-top: 1rem;
-    margin-left: 15rem;
-}
-
-h1, .right-text, .icons{
-    margin-bottom: 1rem;
+.footer__up--left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: dashed;
 }
 
 .icons{
     display: flex;
     justify-content: space-between;
-    margin-right: 27rem;
+    margin-right: 4rem;
 }
 
 .email{
@@ -417,17 +440,16 @@ h1, .right-text, .icons{
     color: #7562E0;
 }
 
-.footer__left{
-    margin-right: 15rem;
-    margin-bottom: 10rem;
-    margin-left: 10rem;
+.footer__up--right{
+   display: flex;
+   flex-direction: column;
+   border: groove;
+   justify-content: space-between;
 }
 
 .left-text{
-    margin-left: 44rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    padding-bottom: 1rem;
+    margin-bottom: 4rem;
+    padding-bottom: 4rem;
 }
 
 form{
@@ -435,8 +457,8 @@ form{
     flex-direction: column;
     justify-items: flex-end;
     flex-wrap: wrap;
-    padding-right: 5rem;
-    padding-left: 4rem;
+    width: 350px;
+    border: dashed;
 }
 
 .btn{
@@ -468,29 +490,37 @@ form{
     padding-left: 1rem;
 }   
 
-.footer__files{
+.footer__down{
     display: flex;
     justify-content: space-between;
     background-color: beige;
+    margin-top: 1rem;
 }
 
-.file-audio{
+.footer__files--left{
     margin-top: 10rem;
-    margin-left: 15rem;
+    margin-right: 4rem;
 }
 
 .audio-text{
     font-size: 20px;
     color: #625C7E;
     margin-bottom: 2rem;
+    margin-left: 5rem;
+    font-weight: bold;
+}
+
+audio{
+    margin-left: 4rem;
 }
 
 .video-text{
     color: #625C7E;
-    margin-left: 13rem;
+    margin-left: 4rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
     font-size: 25px;
+    font-weight: bold;
 }
 
 .Bottom__Footer{
