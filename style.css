@@ -96,7 +96,7 @@ button{
 box-shadow: 0 0 0 0 var(--black), inset 6.7rem 0 0 0 var(--black);
 }
 
-.aboutinfo__picture{
+.about-info__picture{
     width: 40%;
     height: 100%;
     margin-left: 4rem;
@@ -105,7 +105,7 @@ box-shadow: 0 0 0 0 var(--black), inset 6.7rem 0 0 0 var(--black);
     border: 10px solid white;
 }
 
-.myphoto{
+.my--photo{
     position: absolute;
     top: -50px;
     left: -100px;
@@ -116,7 +116,7 @@ box-shadow: 0 0 0 0 var(--black), inset 6.7rem 0 0 0 var(--black);
     background-color: #7562E0;
 }
 
-.myimage{
+.my--image{
     position: relative;
     border-radius: 50%;
     background-color: #7562E0;
@@ -125,7 +125,7 @@ box-shadow: 0 0 0 0 var(--black), inset 6.7rem 0 0 0 var(--black);
     left: 10%;
 }
 
-.whitefont{
+.white--font{
     position: relative;
     right: -2px;
     bottom: -6px;
@@ -135,7 +135,7 @@ box-shadow: 0 0 0 0 var(--black), inset 6.7rem 0 0 0 var(--black);
     height: 325px;
 }
 
-.myphoto img{
+.my--photo img{
     position: relative;
     left: 12px;
     top: 12px;
@@ -146,7 +146,7 @@ box-shadow: 0 0 0 0 var(--black), inset 6.7rem 0 0 0 var(--black);
     object-fit: cover;
 }
 
-.box-center{
+.box--center{
     display: flex;
     justify-content: space-between;
     margin-top: 3rem;
@@ -156,14 +156,14 @@ box-shadow: 0 0 0 0 var(--black), inset 6.7rem 0 0 0 var(--black);
     
 }
 
-.box-center img{
+.box--center img{
     width: 25%;
     height: 25%;
     margin-right: 8px;
     margin-bottom: 100px;
 }
 
-.yearsof{
+.years{
     font-weight: bolder;
     font-size: 5rem;
     color: #7562E0;
@@ -174,7 +174,7 @@ box-shadow: 0 0 0 0 var(--black), inset 6.7rem 0 0 0 var(--black);
     margin-left: 15rem;
 }
 
-.workDone-left p{
+.work-done--left p{
     color: black;
     font-weight: bold;
     font-size: 23px;
@@ -196,7 +196,7 @@ box-shadow: 0 0 0 0 var(--black), inset 6.7rem 0 0 0 var(--black);
     margin-right: 190px;
 }
 
-.Card{
+.card{
     width: 270px;
     height: 270px;
     padding-top: 12rem;
@@ -209,31 +209,31 @@ box-shadow: 0 0 0 0 var(--black), inset 6.7rem 0 0 0 var(--black);
     box-shadow: 0px 0px 12px -5px rgba(0,0,0,0.20);
 }
 
-.Card i{
+.card i{
      font-size: 35px;
      color: var(--violet);
 }
 
-.Card:hover{
+.card:hover{
     background-color: #7562E0;
     color: white;
 }
 
-.Discover{
+.discover{
     opacity: 0;
 }
 
-.Card:hover a{
+.card:hover a{
     opacity: 1;
     color: white;
     visibility: visible;
 }
 
-.Card:hover h4{
+.card:hover h4{
     color: white;
 }
 
-.Card:hover div i{
+.card:hover div i{
     color: white;
 }
 
@@ -242,7 +242,7 @@ h4{
     font-size: 20px;
 }
 
-.main__SecondSection--up{
+.main__second-section--up{
     display: flex;
     justify-content: space-between;
     margin-top: 1rem;
@@ -251,17 +251,17 @@ h4{
     margin-bottom: 7rem;
 }
 
-.SecondSection__up--left{
+.second-section__up--left{
     margin-right: -8rem;
     font-size: 20px;
     font-weight: bold;
 }
 
-.SecondSection__up--left h1{
+.second-section__up--left h1{
     color: #7562E0;
 }
 
-.SecondSection__up--right{
+.second-section__up--right{
     margin-left: 15rem;
     color: #7562E0;
     margin-right: 5rem;
@@ -269,20 +269,20 @@ h4{
     font-weight: bold;
 }
 
-.SecondSection__up--right h3{
+.secondSection__up--right h3{
     margin-bottom: 3rem;
     margin-left: -2rem;
     font-size: 16px;
     color: #625C7E;
 }
 
-.SecondSection__up--right a{
+.second-section__up--right a{
     margin-left: -2rem;
     font-size: 14px;
     color: #7562E0;
 }
 
-.main__SecondSection--down{
+.main__second-section--down{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -291,37 +291,38 @@ h4{
     margin-right: 13rem;
 }
 
-.Design{
+.design{
     width: 31%;
     height: 300px;
     overflow: hidden;
     margin-bottom: 1.1rem;
 }
 
-.Design img{
+.design img{
     position: relative;
     object-fit: cover;
     transition: .3s ease-in-out;
     width: 100%;
 }
 
-.Design:hover{
+.design:hover{
     transform:  translateY(30%);
 }
 
-.Testimony{
+.testimony{
     width: 355px;
     height: 390px;
     object-fit: cover;
-    border: groove;
+    box-shadow: 0 0 0 0 var(--black), inset 6.7rem 0 0 0 var(--black);
+    
 }
 
-.SecondSection--down img{
+.second-section--down img{
     display: flex;
     object-fit: cover;
 }
 
-.main__ThirdSection{
+.main__third--section{
     display: block;
     margin-bottom: 0;
     margin-left: 8rem;
@@ -329,20 +330,20 @@ h4{
     margin-right: 5.5rem;
 }
 
-.ThirdSection-up{
+.third-section-up{
     display: flex;
     justify-content: space-between;
     margin-bottom: 4rem;
 }
 
-.ThirdSection__up--left img{
+.third-section__up--left img{
     width: 100%;
     height: 25rem;
     margin-right: 25rem;
     object-fit: cover;
 }
 
-.ThirdSection__up--right h1{
+.third-section__up--right h1{
     display: flex;
     flex-wrap: wrap;
     color: #7562E0;
@@ -353,7 +354,7 @@ h4{
     height: 5rem;
 }
 
-.ThirdSection__up--right p{
+.third-section__up--right p{
     display: flex;
     flex-wrap: wrap;
     margin-left: 1rem;
@@ -362,7 +363,7 @@ h4{
     margin-bottom: 1rem;
 }
 
-.ThirdSection__up--right img{
+.third-section__up--right img{
     width: 30%;
     height: 60px;
     margin-top: 3rem;
@@ -370,7 +371,7 @@ h4{
     margin-right: auto;
 }
 
-.main__ThirdSection--down{
+.main__third-section--down{
     display: flex;
     justify-content: space-between;
     margin-left: 9rem;
@@ -379,20 +380,29 @@ h4{
     box-shadow: rgba(0, 0, 0, 0.18) 0px 0px 23px -5px;
 }
 
-.Testimony{
+.testimony{
     width: 31%;
     height: 350px;
-    border: 2px solid #f7f6f9;
-    box-shadow: 0px 0px 12px -5px rgba(0,0,0,0.20);
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0px 0px 30px -8px rgba(0,0,0,20%);
 }
 
-.Testimony img{
+.testimony:hover{
+    transition: all .3s ease-in-out;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.testimony img{
     border-radius: 300px;
     width: 8rem;
     height: 8rem;
     object-fit: cover;
     margin-top: 2rem;
     margin-left: 25%;
+    border: solid;
+    border-color: #7562E0;
 }
 
 .Testimony p{
@@ -426,6 +436,7 @@ h4{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-right: -14rem;
     border: dashed;
 }
 
@@ -443,12 +454,13 @@ h4{
 .footer__up--right{
    display: flex;
    flex-direction: column;
-   border: groove;
+   flex-wrap: wrap;
+   margin-left: 12rem;
    justify-content: space-between;
 }
 
-.left-text{
-    margin-bottom: 4rem;
+.left--text{
+    margin-bottom: 1rem;
     padding-bottom: 4rem;
 }
 
@@ -461,7 +473,7 @@ form{
     border: dashed;
 }
 
-.btn{
+.button_2{
     width: 50%;
     height: 60px;
     margin-top: 1rem;
@@ -470,15 +482,22 @@ form{
     background-color: white;
     font-size: 20px;
     cursor: pointer;
+    font: inherit;
     line-height: 1;
     box-shadow: 5px 5px 5px #7562E0;
 }
 
-.btn:hover{
-    background-color: white;
-    transition: all 1s ease-out;
-    transform: translate(-50% -50%);
+.button_2:hover{
+    width: 140px;
+    height: 60px;
+    margin-top: 1rem;
+    margin-left: 6.7rem;
+    border: solid #625C7E;
+    transform: scale(1.02);
+    box-shadow: 0.3em 0.3em 0 0 var(--violet), inset 0.3em 0.3em 0 0 var(--violet);
+    transition: all 0.3s ease-in-out;
 }
+
 
 .input{
     width: 100%;
@@ -502,7 +521,7 @@ form{
     margin-right: 4rem;
 }
 
-.audio-text{
+.audio--text{
     font-size: 20px;
     color: #625C7E;
     margin-bottom: 2rem;
@@ -514,7 +533,7 @@ audio{
     margin-left: 4rem;
 }
 
-.video-text{
+.video--text{
     color: #625C7E;
     margin-left: 4rem;
     margin-bottom: 2rem;
