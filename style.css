@@ -167,11 +167,10 @@ box-shadow: 0 0 0 0 var(--black), inset 6.7rem 0 0 0 var(--black);
     font-weight: bolder;
     font-size: 5rem;
     color: #7562E0;
- }
+}
 
 .experience{
     display: flex;
-    align-items: flex-start;
     margin-left: 15rem;
 }
 
@@ -179,26 +178,25 @@ box-shadow: 0 0 0 0 var(--black), inset 6.7rem 0 0 0 var(--black);
     color: black;
     font-weight: bold;
     font-size: 23px;
- }
+}
 
- .experience__right--up {
-    display: flex;
-    flex-wrap: wrap;
+.experience__right--up{
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 8rem;
+    font-size: 25px;
+    font-weight: bold;
     color: #7562E0;
-    font-size: 30px;
-    margin-right: 190px;
-    padding-left: 6rem;
-    padding-bottom: 2rem;
- }
+}
 
- .experience__right--down{
-    margin-left: 6rem;
+.experience__right--down{
+    margin-left: 2rem;
     display: flex;
     justify-content: space-between;
     margin-right: 190px;
- }
+}
 
- .Card{
+.Card{
     width: 270px;
     height: 270px;
     padding-top: 12rem;
@@ -209,51 +207,72 @@ box-shadow: 0 0 0 0 var(--black), inset 6.7rem 0 0 0 var(--black);
     transition: all .3s ease-in-out;
     border: 2px solid #f7f6f9;
     box-shadow: 0px 0px 12px -5px rgba(0,0,0,0.20);
- }
+}
 
 .Card i{
      font-size: 35px;
      color: var(--violet);
- }
+}
 
 .Card:hover{
     background-color: #7562E0;
     color: white;
- }
+}
 
 .Discover{
     opacity: 0;
- }
+}
 
 .Card:hover a{
     opacity: 1;
     color: white;
     visibility: visible;
- }
+}
 
 .Card:hover h4{
     color: white;
- }
+}
 
 .Card:hover div i{
     color: white;
- }
+}
 
 h4{
     color: #7562E0;
     font-size: 20px;
 }
 
-.main__SecondSection{
-    margin-top: 8rem;
-    display: flex;
-    flex-wrap: wrap;
+.SecondSection__up--left{
+    margin-right: -8rem;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.SecondSection__up--left{
+.SecondSection__up--right h3{
+    margin-left: -2rem;
+    font-size: 16px;
+    color: #625C7E;
+}
+
+.SecondSection__up--right a{
+    margin-left: -2rem;
+    font-size: 14px;
+    color: #7562E0;
+}
+
+
+
+.main__SecondSection--up{
+    margin-top: 1rem;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 1rem;
+    margin-left: 16rem;
+    margin-right: 12rem;
+    
+}
+
+.SecondSection__up--left h1{
+    color: #7562E0;
 }
 
 .SecondSection__up--right{
@@ -264,21 +283,13 @@ h4{
     font-weight: bold;
 }
 
-.lorem{
-    /*margin-right: 15rem;
-    font-size: 14px;*/
-}
-
 .SecondSection__up--right h3{
     margin-bottom: 3rem;
 }
 
-.SecondSection__up--right a{
-    font-size: 20px;
-}
-
 .main__SecondSection--down{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-left: 15rem;
