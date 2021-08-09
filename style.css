@@ -28,16 +28,14 @@ section{
 }
 
 footer{
-    padding: 60px 0;
-}
-
-header{
-    padding: 60px 0;
+    padding: 20px 0;
 }
 
 a{
     text-decoration: none;
 }
+
+/************************Start header***************************/
 
 .nav{
     display: flex;
@@ -50,6 +48,10 @@ a{
     margin-left: 12rem;
     font: 3rem;
     font-weight: bold;
+}
+
+.nav__name:hover{
+    cursor: pointer;
 }
 
 .nav__menu{
@@ -66,13 +68,14 @@ a{
     color: #7562E0
 }
 
-.aboutinfo{
+.about-info{
     display: flex;
     justify-content: space-around;
 }
 
 .name{
     margin-left: 6rem;
+    margin-top: 30px;
     font-size: 3rem;
     font-weight: bold;
     color: #000;
@@ -99,11 +102,10 @@ button{
     margin-left: 6.7rem;
     box-shadow: 0.5em 0.5em 0 0 var(--violet), inset 0.5em 0.5em 0 0 var(--violet);
     transition: all 0.5s ease-in-out;
-    
 }
 
 .button:hover{
-box-shadow: 0 0 0 0 var(--black), inset 6.7rem 0 0 0 var(--black);
+    box-shadow: 0 0 0 0 var(--black), inset 6.7rem 0 0 0 var(--black);
 }
 
 .button:focus {
@@ -160,6 +162,10 @@ box-shadow: 0 0 0 0 var(--black), inset 6.7rem 0 0 0 var(--black);
     object-fit: cover;
 }
 
+/****************************end header***************************/
+
+/************************Start main section***********************/
+
 .box--center{
     display: flex;
     justify-content: space-between;
@@ -167,7 +173,6 @@ box-shadow: 0 0 0 0 var(--black), inset 6.7rem 0 0 0 var(--black);
     margin-bottom: 3rem;
     margin-left: 350px;
     margin-right: 350px;
-    
 }
 
 .box--center img{
@@ -256,10 +261,14 @@ h4{
     font-size: 20px;
 }
 
+/*************************End main section****************************/
+
+/************************Start second section*************************/
+
 .main__second-section--up{
     display: flex;
     justify-content: space-between;
-    margin-top: 1rem;
+    margin-top: 6px;
     margin-left: 16rem;
     margin-right: 12rem;
     margin-bottom: 7rem;
@@ -313,14 +322,15 @@ h4{
 }
 
 .design img{
+    width: 100%;
     position: relative;
     object-fit: cover;
     transition: .3s ease-in-out;
-    width: 100%;
+    top: 0;
 }
 
-.design:hover{
-    transform:  translateY(30%);
+.design:hover img{
+    /*transform: translateY(calc(-100% + 300px));*/
 }
 
 .testimony{
@@ -335,6 +345,10 @@ h4{
     display: flex;
     object-fit: cover;
 }
+
+/**********************End second section*********************/
+
+/*********************Start third section*********************/
 
 .main__third-section{
     display: block;
@@ -433,6 +447,10 @@ h4{
     font-weight: bold;
 }
 
+/***********************end third section***********************/
+
+/**************************Start footer*************************/
+
 footer{
     display: block;
     justify-content: space-between;
@@ -462,14 +480,14 @@ footer{
     font-weight: bold;
 }
 
-.footer__right--icons a i{
-    margin-right: 20px;
+.footer__left--icons a i{
+    margin-right: 14px;
     font-size: 30px;
     color: #ccc;
     transition: all .3s ease-in-out;
 }
 
-.footer__right--icons a i:hover {
+.footer__left--icons a i:hover {
     color: #7562E0;
 }
 
@@ -568,6 +586,8 @@ audio{
     font-size: 25px;
     font-weight: bold;
 }
+
+/**************************end footer***************************/
 
 .Bottom__Footer{
     display: flex;
