@@ -31,6 +31,10 @@ footer{
     padding: 60px 0;
 }
 
+header{
+    padding: 60px 0;
+}
+
 a{
     text-decoration: none;
 }
@@ -52,8 +56,14 @@ a{
     margin-right: 9rem;
 }
 
-.nav__menu a{
+.nav__menu ul a{
     margin-left: 1rem;
+    color: var(--dark);
+    transition: all .3s ease-in-out;
+}
+
+.nav__menu ul a:hover{
+    color: #7562E0
 }
 
 .aboutinfo{
@@ -447,6 +457,11 @@ footer{
     height: 150px;
 }
 
+.footer__up-left--card h1{
+    font-size: 23px;
+    font-weight: bold;
+}
+
 .icons{
     display: flex;
     justify-content: space-between;
@@ -463,11 +478,11 @@ footer{
    flex-direction: column;
    justify-content: space-between;
    width: 99%;
-   margin-left: 2rem;
+   margin-block-start: 1rem;
 }
 
 .footer__up-right--text{
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 form{
@@ -488,7 +503,7 @@ form{
     font-size: 20px;
     cursor: pointer;
     font: inherit;
-    line-height: 1;
+    line-height: 1.2;
     transition: all 0.5s ease-in-out;
     box-shadow: 0.4em 0.4em 0 0 var(--violet), inset 0.4em 0.4em 0 0 var(--violet);
 }
@@ -498,17 +513,20 @@ form{
 }
     
 .button:focus {
-        box-shadow: 0 0 0 0 var(--black), inset 6.7rem 0 0 0 var(--black);
+    box-shadow: 0 0 0 0 var(--black), inset 6.7rem 0 0 0 var(--black);
 }
 
 input{
-    width: 100%;
-    height: 60px;
-    margin-bottom: 2rem;
+    width: 450px;
+    height: 75px;
     border: 3px solid #625C7E;
+    margin-bottom: 1.3rem;
+    background-color: #7562e010;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     padding-left: 1rem;
+    border-style: unset;
+    border-image: initial;
 }
 
 .footer__down{
