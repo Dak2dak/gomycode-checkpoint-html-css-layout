@@ -325,12 +325,12 @@ h4{
     width: 100%;
     position: relative;
     object-fit: cover;
-    transition: .3s ease-in-out;
+    transition: 2s ease-in-out;
     top: 0;
 }
 
 .design:hover img{
-    /*transform: translateY(calc(-100% + 300px));*/
+    transform: translateY(calc(-100% + 300px));
 }
 
 .testimony{
@@ -433,14 +433,14 @@ h4{
     border-color: #7562E0;
 }
 
-.Testimony p{
+.testimony p{
     text-align: center;
     margin-bottom: 2rem;
     color: #7562E0;
     font-weight: bold;
 }
 
-.Testimony span{
+.testimony span{
     text-align: center;
     margin-left: 4rem;
     opacity: 0.4;
