@@ -21,7 +21,9 @@ html{
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     color: #625C7E;
+    
 }
+
 
 section{
     padding: 60px 0;
@@ -333,14 +335,6 @@ h4{
     transform: translateY(calc(-100% + 300px));
 }
 
-.testimony{
-    width: 355px;
-    height: 390px;
-    object-fit: cover;
-    box-shadow: 0 0 0 0 var(--black), inset 6.7rem 0 0 0 var(--black);
-    
-}
-
 .second-section--down img{
     display: flex;
     object-fit: cover;
@@ -350,24 +344,29 @@ h4{
 
 /*********************Start third section*********************/
 
-.main__third-section{
+/* .main__third-section{
     display: block;
     margin-bottom: 0;
     margin-left: 8rem;
     padding-top: 0;
+    background-color: #fafcfe;
     margin-right: 5.5rem;
-}
+} */
 
 .third-section--up{
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 4rem;
+    justify-content: center;
+    align-items: center;
+}
 }
 
 .third-section__up--left img{
     width: 100%;
     height: 25rem;
-    margin-right: 25rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    border: dashed;
     object-fit: cover;
 }
 
@@ -399,38 +398,49 @@ h4{
     margin-right: auto;
 }
 
+.main__third-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
 .third-section--down{
     display: flex;
-    justify-content: space-between;
-    margin-left: 9rem;
-    margin-right: 8rem; 
-    margin-bottom: 6rem;
-    box-shadow: rgba(0, 0, 0, 0.18) 0px 0px 23px -5px;
+    width: 100%;
+    height: 450px;
+    background: #f7f6f9;
+    justify-content: center;
+    align-items: center;
 }
 
 .testimony{
-    width: 31%;
-    height: 350px;
+    width: 23%;
+    height: 320px;
     position: relative;
-    border-radius: 8px;
-    box-shadow: 0px 0px 30px -8px rgba(0,0,0,20%);
+    margin: 1rem; 
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: black
 }
 
 .testimony:hover{
-    transition: all .3s ease-in-out;
-    transform: scale(1.03);
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transform: scale(1.02);
     cursor: pointer;
 }
 
 .testimony img{
-    border-radius: 300px;
-    width: 8rem;
-    height: 8rem;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 35%;
     object-fit: cover;
-    margin-top: 2rem;
-    margin-left: 25%;
-    border: solid;
-    border-color: #7562E0;
+    border: 4px solid #7562E0;
 }
 
 .testimony p{
