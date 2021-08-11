@@ -21,16 +21,20 @@ html{
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     color: #625C7E;
-    
 }
-
 
 section{
     padding: 60px 0;
 }
 
+.header{
+    margin-left: 12rem;
+    padding-top: 1rem;
+}
+
 footer{
     padding: 20px 0;
+    margin-left: 12rem;
 }
 
 a{
@@ -47,7 +51,6 @@ a{
 
 .nav__name{
     color: #7562E0;
-    margin-left: 12rem;
     font: 3rem;
     font-weight: bold;
 }
@@ -57,6 +60,7 @@ a{
 }
 
 .nav__menu{
+    padding-right: 80px;
     margin-right: 9rem;
 }
 
@@ -76,15 +80,14 @@ a{
 }
 
 .name{
-    margin-left: 6rem;
     margin-top: 30px;
     font-size: 3rem;
     font-weight: bold;
     color: #000;
 }
 
-.skills{
-    margin-left: 6.7rem;
+.skills, .name{
+    margin-left: -8.5rem;
 }
 
 button{
@@ -101,7 +104,7 @@ button{
     width: 175px;
     height: 60px;
     margin-top: 1rem;
-    margin-left: 6.7rem;
+    margin-left: -8rem;
     box-shadow: 0.5em 0.5em 0 0 var(--violet), inset 0.5em 0.5em 0 0 var(--violet);
     transition: all 0.5s ease-in-out;
 }
@@ -117,7 +120,6 @@ button{
 .about-info__picture{
     width: 40%;
     height: 100%;
-    margin-left: 4rem;
     background-position: center;
     max-height: 600px;
     border: 10px solid white;
@@ -166,15 +168,22 @@ button{
 
 /****************************end header***************************/
 
-/************************Start main section***********************/
+/************************Start First section***********************/
+
+.first{
+    margin-left: 12rem;
+    margin-right: 10rem;
+    padding-right: 70px;
+}
 
 .box--center{
     display: flex;
     justify-content: space-between;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    margin-left: 350px;
-    margin-right: 350px;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .box--center img{
@@ -192,7 +201,10 @@ button{
 
 .experience{
     display: flex;
-    margin-left: 15rem;
+}
+
+.work-done--left{
+    margin-right: 4rem;
 }
 
 .work-done--left p{
@@ -204,7 +216,6 @@ button{
 .experience__right--up{
     margin-left: 2rem;
     margin-bottom: 2rem;
-    margin-right: 8rem;
     font-size: 25px;
     font-weight: bold;
     color: #7562E0;
@@ -214,11 +225,10 @@ button{
     margin-left: 2rem;
     display: flex;
     justify-content: space-between;
-    margin-right: 190px;
 }
 
 .card{
-    width: 270px;
+    width: 31%;
     height: 270px;
     padding-bottom: 2rem;
     padding-left: 2rem;
@@ -259,7 +269,6 @@ button{
     color: white;
     visibility: visible;
     margin-bottom: 1rem;
-    
     transform: rotateY(360deg);
 }
 
@@ -273,7 +282,7 @@ h4{
     font-size: 20px;
 }
 
-/*************************End main section****************************/
+/*************************End First section****************************/
 
 /************************Start second section*************************/
 
@@ -281,9 +290,7 @@ h4{
     display: flex;
     justify-content: space-between;
     margin-top: 6px;
-    margin-left: 16rem;
-    margin-right: 12rem;
-    margin-bottom: 7rem;
+    margin-bottom: 6rem;
 }
 
 .second-section__up--left{
@@ -322,13 +329,11 @@ h4{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    margin-left: 16rem;
-    margin-right: 13rem;
 }
 
 .design{
-    width: 31%;
-    height: 300px;
+    width: 32%;
+    height: 320px;
     overflow: hidden;
     margin-bottom: 1.1rem;
 }
@@ -354,30 +359,28 @@ h4{
 
 /*********************Start third section*********************/
 
-/* .main__third-section{
-    display: block;
-    margin-bottom: 0;
-    margin-left: 8rem;
-    padding-top: 0;
-    background-color: #fafcfe;
-    margin-right: 5.5rem;
-} */
-
 .third-section--up{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.third-section__up--left{
+   width: 50%;
+}
 
 .third-section__up--left img{
     width: 100%;
-    height: 25rem;
+    height: 65vh;
     justify-content: center;
-    align-items: center;
-    margin-right: 5px;
-    border: dashed;
     object-fit: cover;
+}
+
+.third-section__up--right{
+    width: 50%;
+    height: 450px;
+    padding-bottom: 20px;
+    margin-right: 5rem;
 }
 
 .third-section__up--right h1{
@@ -385,27 +388,22 @@ h4{
     flex-wrap: wrap;
     color: #7562E0;
     font-size: 35px;
-    padding-right: 5rem;
-    margin-left: 1rem;
-    margin-top: 2rem;
-    height: 5rem;
+    margin-left: 0.5rem;
 }
 
 .third-section__up--right p{
     display: flex;
     flex-wrap: wrap;
     margin-left: 1rem;
-    padding-right: 6rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-top: 3.5rem;
 }
 
 .third-section__up--right img{
     width: 30%;
     height: 60px;
-    margin-top: 3rem;
-    margin-left: 10rem;
-    margin-right: auto;
+    margin-top: 20%;
+    margin-left: 35%;
+    margin-right: 35%;
 }
 
 .main__third-section{
@@ -418,19 +416,19 @@ h4{
     display: flex;
     width: 100%;
     height: 450px;
-    background: #f7f6f9;
+    background-color: rgb(250, 252, 254);
     justify-content: center;
     align-items: center;
 }
 
 .testimony{
-    width: 23%;
+    width: 31%;
     height: 320px;
     position: relative;
     margin: 1rem; 
     background-color: #fff;
     border-radius: 6px;
-    box-shadow: ;
+    box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.18);
 }
 
 .testimony:hover{
@@ -474,7 +472,6 @@ h4{
 footer{
     display: block;
     justify-content: space-between;
-    margin-left: 13rem;
     margin-right: 13rem;
 }
 
@@ -507,9 +504,30 @@ footer{
     transition: all .3s ease-in-out;
 }
 
-.footer__left--icons a i:hover {
-    color: #7562E0;
+.footer__left--icons a .fa-facebook:hover{
+    color: rgb(59, 89, 152);
+
 }
+
+.footer__left--icons a .fa-linkedin:hover{
+    color: rgb(0, 119, 181);
+
+}
+
+.footer__left--icons a .fa-github:hover{
+    color: #171515;
+
+}
+
+.footer__left--icons a .fa-whatsapp-square:hover{
+    color: rgb(37, 211, 102);
+
+}
+
+.footer__left--icons a .fa-instagram-square:hover{
+    color: rgb(205, 72, 107);
+}
+
 
 .email{
     font-weight: bold;
